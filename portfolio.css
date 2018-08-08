@@ -1,0 +1,188 @@
+.header-content {
+	font-family: Julius Sans One;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	}
+.intro{
+	text-align: center;	
+}
+
+ .logo-pic {
+	max-width: 150px;	
+	float: left;
+}
+
+/*image size*/
+.image {
+	width: 300px;
+	height: 300px;
+	width: 100%;
+}
+
+/*pictures and captions*/
+.featured-work {
+	font-family: Roboto Slab;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*featured*/
+.h2 {
+	text-align: center;
+	font-family: Roboto Slab;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+/*paragraph and headshot*/
+.big-pic {
+	width: 100%;
+}
+
+.paragraph-headshot {
+	margin-top: 10px;
+	font-family: Roboto Slab;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.headshot {
+	max-width: 250px;
+	padding-top: 30px
+}
+
+.intro-paragraph {
+ text-align: center;
+ padding: 20px;
+ margin-bottom: 60px;
+}
+
+/*footer*/
+ul {
+	list-style-type: none;
+}	
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	text-align: left;
+	font-size: 15px;
+}
+
+/* media queries for responsive design*/
+@media screen and (min-width:400px) and (max-width:767px) {
+	.paragraph-headshot{
+		display: flex;
+		flex-position: column;
+		}
+
+	.intro-paragraph {
+		width: 50%;
+		padding: 5px;
+		}
+
+	.headshot {
+		width: 50%;
+		height: 50%;
+		padding-right: 5px;
+		}
+
+	}
+@media screen and (min-width:768px) and (max-width:900px) {
+	.logo-pic {
+		width: 100%;
+		float: none;
+		margin-left: 20px;
+	}
+
+	.big-pic-paragraph {
+		display: flex;
+	}
+
+	.big-pic {
+	max-width: 300px;
+	max-height: 300px;
+	width: 100%;
+	margin-top: 150px;
+	}
+
+	.paragraph-headshot {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.headshot {
+		order: 1
+		width: 100%;
+		margin: auto;
+	}
+
+	.intro-paragraph {
+		padding: 50px;
+		padding-bottom: 0;
+		order: 2;
+		text-align: left;
+	}
+
+	.featured-work {
+		display: flex;
+		justify-content: center;
+	}
+
+	.image {
+		max-width: 300px;
+		max-height: 200px;
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width:900px) {
+	.logo-pic {
+		width: 100%;
+		float: none;
+		margin-left: 20px;
+	}
+
+	.big-pic-paragraph {
+		display: flex;
+	}
+
+	.big-pic {
+		width: 50%;
+
+	}
+
+	.intro-paragraph {
+		padding: 40px;
+		padding-bottom: 0;
+	}
+
+	.featured-work {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.image {
+		max-width: 350px;
+		width: 100%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
